@@ -18,6 +18,7 @@ with_entries(select(.key | IN(
     "JSON",
     "Kotlin",
     "Less",
+    "Pkl",
     "Protocol Buffer",
     "Python",
     "SCSS",

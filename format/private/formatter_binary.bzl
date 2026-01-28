@@ -24,6 +24,7 @@ TOOLS = {
     "Go": "gofmt",
     "SQL": "prettier",
     "Shell": "shfmt",
+    "Pkl": "pkl",
     "Protocol Buffer": "buf",
     "C": "clang-format",
     "C++": "clang-format",
@@ -69,6 +70,7 @@ CHECK_FLAGS = {
     "rustfmt": "--check",
     "fantomas": "--check",
     "csharpier": "check",
+    "pkl": "format",
 }
 
 # Flags to pass each tool when running in default mode
@@ -100,6 +102,7 @@ FIX_FLAGS = {
     "rustfmt": "",
     "fantomas": "",
     "csharpier": "format",
+    "pkl": "format -w",
 }
 
 def to_attribute_name(lang):
